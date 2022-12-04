@@ -69,9 +69,9 @@ pnpm start 1
 
 ```
 Day 01
-Time part 1: -
-Time part 2: -
-Both parts: -
+Time part 1: 0.715ms
+Time part 2: 0.402ms
+Both parts: 1.117ms
 ```
 
 ```
