@@ -4,7 +4,7 @@ const parseInput = (rawInput: string) => rawInput.split('');
 
 const solve = (input: string[], markerLength: number) => {
   const buffer = input.slice(0, markerLength - 1);
-  for(let i = 3; i < input.length; i++) {
+  for(let i = markerLength - 1; i < input.length; i++) {
     if([...buffer, input[i]].every((c, i, arr) => arr.indexOf(c) === i))
       return i + 1;
 
